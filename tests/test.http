@@ -1,0 +1,12 @@
+## Create
+put http://localhost:5001/api/5f90e5b1b4cdf2041c98ee43
+Content-Type: application/json
+
+{
+    "product" : { 
+        "title":"Huevos a La Mexicana",
+        "description": "Huevos revueltos con cebolla, jalapeno y tomate. (Scrambled eggs with onion, jalapeno & tomato)",
+        "price": 7.50
+        },
+    "active": true
+}
