@@ -15,6 +15,10 @@ app.get('/', (req, res) => {
   res.sendFile(path.resolve(__dirname + '/public/index.html'))
 })
 
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname + '/public/index.html'))
+})
+
 startDatabase().then(async () => {
   app.listen(PORT, async () => {
     console.log({ success: true })

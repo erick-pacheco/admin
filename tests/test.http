@@ -1,4 +1,4 @@
-## Create
+### Create
 put http://localhost:5001/api/5f90e5b1b4cdf2041c98ee43
 Content-Type: application/json
 
@@ -8,5 +8,11 @@ Content-Type: application/json
         "description": "Huevos revueltos con cebolla, jalapeno y tomate. (Scrambled eggs with onion, jalapeno & tomato)",
         "price": 7.50
         },
-    "active": true
+    "active": true,
+    "images": ["https://www.moms-mexican-recipes.com/wp-content/uploads/2017/02/Huevos-A-La-Mexicana-Recipe.jpg", "https://avocadosfrommexico.com/wp-content/uploads/2017/01/Pic-78-Huevos-a-la-Mexicana-con-Aguacate-Recipe-5-Final-low-1.jpg"]
 }
+
+### Read 
+
+GET http://localhost:5001/api
+Content-Type: application/json
