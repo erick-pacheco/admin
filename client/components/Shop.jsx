@@ -1,4 +1,3 @@
-import { ReplyTwoTone } from "@material-ui/icons";
 import React, { Component } from "react";
 
 export default class Shop extends Component {

@@ -21,7 +21,7 @@ router.post('/', async (req, res) => {
 })
 
 router.delete('/:id', async (req, res) => {
-    await deleteProduct(res.params.id)
+    await deleteProduct(req.params.id)
     res.send({ message: "Product deleted successfully" })
 })
 
